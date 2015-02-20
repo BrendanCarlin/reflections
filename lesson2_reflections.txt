@@ -10,3 +10,10 @@ to the staging area.  Then double-checking the status of my
 staging area to ensure I don't commit files which should
 be left unchanged.  I think of it as allowing for more
 precise documentation when working on a project.
+
+How can you use the staging area to make sure
+you have one commit per logical change?
+
+I can use git commands like git diff and
+git diff --staged to compare the difference between
+files prior to initializing a git commit.
