@@ -1,0 +1,66 @@
+How did viewing a diff between two versions of a file help you see
+the bug that was introduced?
+
+At first, i was overwhelmed a bit with the question.
+With all the code I was thinking, How can i possibly find
+a misspelled word in all this code?"  I was hoping for another
+"how many lines were updated question".  I realize now that if I was
+simply looking at the one document that 
+housed all my code and trying to debug the same issue it wouldve been 
+even more overwhelming.  Version control presents the specific changes 
+from the previous document to help condense the area that should be 
+reviewed.
+
+
+How could having a software that shows all the history of the changes 
+you've made to a file make you a more proficient programmer in the long 
+term?
+
+
+I could revert back to previous documents if necessary and I would have
+access to only the changes I've made when reviewing my work
+rather than sifting through all the material and trying to
+remember every step and line of code I changed
+
+
+What do you think are the pros and cons of manually choosing
+when to create a commit, like you do in Git, vs having versions
+automatically saved, like Google docs does?
+
+The pro is you can clearly structure it to represent
+individual updates on a project, basically catalouging for
+efficiency and increased productivity/collaboration.  The con 
+is that it's not automated--the One Commit per Logical Change
+solution requires a manual save by the user--
+who is prone to error lol.  He/She may save too often
+or too late or nothing at all.
+
+When do you think some version control systems,
+like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+
+I'm not sure.  Either Git was just an improved/modified idea
+that Google Docs and Dropbox shared or they were built with
+different intended purposes.
+
+How can you use the commands git log and git diff
+to view the history of files?
+
+git log shows the commit history of a repository.  i can
+compare commits with git diff putting the newest id first,
+then listing the previous version's commit id.  
+Like this: git dif newer_id older_id
+
+note: press q to exit git log, h for help
+commits are listed by newest first
+you can click on the icon in the upper left corner
+choose edit>mark> (highlight text with cursor)>press
+enter to copy in git bash.  use {INSERT} to paste
+
+How might using version control make you more confident to make
+changes that could break something?
+
+With git I can easily run previous file versions to
+discover which commit includes the first instance of
+the bug.  Then I can run git diff against the previous 
+commit to clearly see what edits were made.
