@@ -17,3 +17,19 @@ you have one commit per logical change?
 I can use git commands like git diff and
 git diff --staged to compare the difference between
 files prior to initializing a git commit.
+
+What are some situations when branches
+would be helpful in keeping your history
+organized? How would branches help?
+
+Branches would be helpful keeping my
+history organized when I want to
+experiment with new features on an
+existing project, or when I want to build
+new versions of the same project to try
+a new structure.  Branches allow me
+to create different versions of a project,
+then editing the files within that project
+without overwriting the mastercopy.  Instead,
+I have as many versions of a file as I do 
+branches until I merge them back to master.
