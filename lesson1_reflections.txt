@@ -64,3 +64,4 @@ With git I can easily run previous file versions to
 discover which commit includes the first instance of
 the bug.  Then I can run git diff against the previous 
 commit to clearly see what edits were made.
+
